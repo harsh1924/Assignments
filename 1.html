@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
 </head>
+<style>
+    .page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 <body>
     <div class="page">
         <h2>Login</h2>
         <div class="forms">
             <input type="text" name="text" id="username" placeholder="Username">
             <input type="password" name="password" id="password" placeholder="Password">
+        </div>
+        <div class="btn">
             <button type="submit">Submit</button>
         </div>
     </div>
